@@ -1,0 +1,175 @@
+ /*Reseted CSS*/
+ * {margin: 0;
+    padding: 0;}
+    
+    
+    
+     /* Estilos Generales*/
+    
+    /*  Fuente*/
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+    
+    html { font-family: "Tajawal", sans-serif;
+    }
+    
+    /* Color Fondos */
+    header {background-color: #166d3b;
+    }
+    
+    body {background-color: #166d3b;
+        background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+        width: 100%;
+    height: 100% 
+    }
+    
+    
+    footer{background-color: #F1C40F;
+    border-color: black;
+    border: 10px;
+    margin: 5px;
+    
+    }
+    
+    /* colores */
+    
+    h1 { color: #F1C40F ;}
+    h2{ color:#F1C40F;
+    }
+    h3 {color:#EAECEE}
+    h4{color:#EAECEE}
+    adress {color:#EAECEE}
+    aside {color: black;
+        align-content: flex-start;
+        margin-left: 10px;}
+    ul{color:#EAECEE}
+    p{color: #EAECEE}
+    a { color: black !important;} 
+    td{ color:#E5E8E8}
+    label{ color: #F1C40F}
+    .fondo {background-color: #117A65; }
+    .sectionProductos{align-content: center;
+    margin-left: 300px;
+    margin-top: -1600px;
+    width: 800px;}
+    .backgroundNav{background-color: #F1C40F;}
+    
+    /* Clases */
+    .bordesRedondeados {border-radius: 50%;}
+    
+    /* Estilos de texto */
+    .titulo{text-align: center;}
+    .negrita {font-weight: bold;}
+    .textoGrande {font-size:  40px; ;}
+    .textoRelativo {font-size: 200%;}
+    .capitalizar {text-transform: capitalize;}
+    .interlineado {line-height:150% ;}
+    .subrayado {text-decoration: underline;}
+    .articleCenter{text-align: center;
+    margin-top: 20px;}
+    
+    
+    
+            /*Transformaciones*/
+    .escalar{transition: width 1s, height 1s;}
+    .escalar:hover{ width: 200px;
+        height: 200px;
+    border: solid black 1px;}
+    
+    
+    
+    /*Animación
+    .anima {animation-name: efectito;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        background-color: #F1C40F;}
+    */
+
+    /*clases en flex*/
+    .imgHeader{ display:flex;
+    justify-content:center;
+    margin: 10px;
+    }
+    .flexNav{display: flex;
+    justify-content: end;
+    list-style-type: none;
+    background-color: #F1C40F;}
+    .liFlex{display: flex;
+    margin-right: 10px;}
+    .imgBanner{display: flex;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;}
+    .formFlex {display: flex;
+    display: block;
+    justify-content: start;
+    margin-left: 20px
+    ;}
+    .labelForm{display: flex;
+        justify-content: start;
+    margin-top: 10px;
+    }
+    .maps{display: flex;
+    justify-content: end;
+    margin-top: 20px;}
+    
+    .subtituloIndex{text-align: center;
+    margin-top: 100px;}
+    .contactoIndex{text-align: end;
+    margin-right: 10px;}
+    .contacto{text-align: start;
+    margin-top: 20px;}
+    .subtituloProductos{margin-top: 20px;}
+    
+    
+    /*Grids*/
+    .galeriaDeFotos{display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        width: auto;
+         }
+    
+    /*
+     @keyframes efectito {
+         0%{transform: translateX(80%);}
+    
+         50%{transform: translateX(40%);}
+    
+         100%{transform:translateX(0%)}
+     }*/
+    
+     
+    
+    
+    
+    
+    
+     
+        /*MEDIA QUERIES
+    /*Tablet
+    @media (min-width:600px ) and (max-width:1024){
+    body {background-color:#117A65;}
+    
+    
+    .gridContainerIndex{display: grid;
+        
+    
+        grid-template-areas:
+         "header header header header"
+        "prodcutos productos productos productos"
+        "nosotros nosotros contacto contacto"
+        "nosotros nosotros contacto contacto"
+        "footer footer footer footer";
+        ;}*/
+    
+    /*mobile
+    @media (min-width: 320px) and (max-width:599px){
+    body{ background-color: #117A65} 
+    
+    grid-container-index{display: grid;
+    grid-template-areas:
+     "header header header header"
+    "productos productos productos productos"
+    "nosotros nosotros contacto contacto"
+    "nosotros nosotros contacto contacto"
+    "footer footer footer footer";}*/
